@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  border: none;
+  width: 80px;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  margin: 10px 0px 50px 0px;
+}
+
+li > button {
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  margin: 3px 0px 0px 5px;
+}
+
+.note {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.05);
+}
